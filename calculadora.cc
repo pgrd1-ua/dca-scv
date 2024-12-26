@@ -6,7 +6,7 @@ int main() {
     int a, b;
     char op;
 
-    cout << "Ingrese dos números: ";
+    cout << "Ingrese los operandos: ";
     cin >> a >> b;
     cout << "Ingrese una operación (+, -, *, /): ";
     cin >> op;
@@ -28,7 +28,7 @@ int main() {
                 cout << "Error: División por cero." << endl;
             break;
         default:
-            cout << "Operación no válida." << endl;
+            cout << "Operación NO VÁLIDA." << endl;
     }
 
     return 0;
