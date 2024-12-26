@@ -13,13 +13,13 @@ int main() {
 
     switch (op) {
         case '+':
-            cout << "Resultado: " << a - b << endl;
+            cout << "Resultado suma: " << a - b << endl;
             break;
         case '-':
-            cout << "Resultado: " << a + b << endl;
+            cout << "Resultado resta: " << a + b << endl;
             break;
         case '*':
-            cout << "Resultado: " << a * b << endl;
+            cout << "Resultado multiplicación: " << a * b << endl;
             break;
         case '/':
             if (b != 0)
